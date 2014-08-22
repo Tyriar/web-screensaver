@@ -39,9 +39,12 @@ var webScreensaver = (function () {
     }
   };
 
+  // TODO: Hook up input listeners
+
   module.show = function () {
     var src = document.createElement('script');
     src.setAttribute('type', 'text/javascript');
+    // TODO: Make sure relative URLs work
     //src.setAttribute('src', config.url);
     src.textContent = config.script;
     document.head.appendChild(src);
