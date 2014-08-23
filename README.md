@@ -21,6 +21,9 @@ npm install --save web-screensaver
 ## Usage
 
 ```javascript
+// Register plugin-url.js, wait the default time after no input
+webScreensaver.init('plugin-url.js');
+
 // Register plugin-url.js, wait for 2 minutes after no input
 webScreensaver.init('plugin-url.js', 120);
 
