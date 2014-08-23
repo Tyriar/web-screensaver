@@ -15,7 +15,7 @@ npm install --save web-screensaver
 ## Including
 
 ```html
-<script src="bower_components/web-screensaver/src/web-screensaver.js"></script>
+<script src="bower_components/web-screensaver/web-screensaver.js"></script>
 ```
 
 ## Usage
