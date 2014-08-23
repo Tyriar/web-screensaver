@@ -1,0 +1,15 @@
+{
+  "name": "web-screensaver",
+  "version": "0.1.0",
+  "description": "Displays a 'screensaver' in a sandbox element after a configurable amount of seconds of no user input.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyriar/web-screensaver.git"
+  },
+  "author": "Daniel Imms (http://www.growingwiththeweb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tyriar/web-screensaver/issues"
+  },
+  "homepage": "https://github.com/Tyriar/web-screensaver"
+}

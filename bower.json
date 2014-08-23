@@ -1,0 +1,20 @@
+{
+  "name": "web-screensaver",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Tyriar/web-screensaver",
+  "authors": [
+    "Daniel Imms (http://www.growingwiththeweb.com)"
+  ],
+  "description": "Displays a 'screensaver' in a sandbox element after a configurable amount of seconds of no user input.",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
