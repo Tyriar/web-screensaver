@@ -1,3 +1,5 @@
+/*! web-screensaver | (c) 2014 Daniel Imms | github.com/Tyriar/web-screensaver/blob/master/LICENSE */
+
 var webScreensaver = (function () {
   var module = {};
 
@@ -7,13 +9,12 @@ var webScreensaver = (function () {
   var currentPlugin = 0;
   var eventInit = false;
   var config = {
+    script: undefined,
     url: undefined,
-    waitTime: 60,
-    script: undefined
+    waitTime: 60
   };
 
   module.plugins = [];
-  module.plugin = undefined;
 
   function restart() {
     if (sandbox) {
@@ -88,9 +89,6 @@ var webScreensaver = (function () {
 
     sandbox = createSandbox();
     module.plugins[currentPlugin].object.start(sandbox);
-
-    // set a variable based on the plugin name?
-    // leave 'var plugin = ' part up to the framework?
   }
 
   module.init = function (plugins, waitTime) {
