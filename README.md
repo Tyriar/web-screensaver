@@ -1,8 +1,5 @@
 # web-screensaver [![NPM version](http://img.shields.io/npm/v/web-screensaver.svg?style=flat)](https://www.npmjs.org/package/web-screensaver)
 
-[![Build Status](http://img.shields.io/travis/Tyriar/web-screensaver.svg?style=flat)](http://travis-ci.org/Tyriar/web-screensaver)
-[![Code climate](http://img.shields.io/codeclimate/github/Tyriar/web-screensaver.svg?style=flat)](https://codeclimate.com/github/Tyriar/web-screensaver)
-
 Displays a 'screensaver' in a sandbox element after a configurable amount of seconds of no user input. Supports multiple types of screensaver plugins that are randomly selected. Downloading of individual plugins are deferred until they're required so impact on page load time is minimal.
 
 ## Installing
