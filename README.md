@@ -34,6 +34,26 @@ webScreensaver.init([
 ], 120);
 ```
 
+## Creating plugins
+
+Plugins are the scripts that actually do the visual work, the framework calls in to `start` and `stop` functions on the plugin which set everything up and tear everything down respectively. Here is the structure of a plugin:
+
+```javascript
+webScreensaver.registerPlugin((function () {
+  var module = {};
+
+  module.start = function (sandbox) {
+    // Start the screensaver
+  };
+
+  module.stop = function () {
+    // Stop the screensaver
+  };
+
+  return module;
+})());
+```
+
 ## License
 
 MIT © [Daniel Imms][1]
